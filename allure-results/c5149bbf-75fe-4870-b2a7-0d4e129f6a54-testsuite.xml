@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653050865254' stop='1653050865623'>
+    <name>Register , Registration functionlity for Answerforce: Register in AnsewerForce with valid data</name>
+    <title>Register , Registration functionlity for Answerforce: Register in AnsewerForce with valid data</title>
+    <test-cases>
+        <test-case start='1653050865256' status='passed' stop='1653050865260'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653050865260' status='passed' stop='1653050865356'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1653050865269' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0d103bce-c79a-48be-972a-d1c8f96f39f5-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1653050865356' status='broken' stop='1653050865616'>
+            <name>When Navigate to the Register page</name>
+            <title>When Navigate to the Register page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1653050865605' status='broken' stop='1653050865615'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: _home.default.NavigateToRegisterPage is not a function</message>
+                <stack-trace>TypeError: _home.default.NavigateToRegisterPage is not a function
+                    at World.&lt;anonymous> (F:\LearnAutomationPractice\step-definitions\/register.js:13:20)
+                    at World.executeAsync (F:\LearnAutomationPractice\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at World.testFrameworkFnWrapper (F:\LearnAutomationPractice\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at wrapPromiseWithTimeout (F:\LearnAutomationPractice\node_modules\@cucumber\cucumber\src\time.ts:56:10)
+                    at Object.run (F:\LearnAutomationPractice\node_modules\@cucumber\cucumber\src\user_code_runner.ts:86:16)
+                    at Object.run (F:\LearnAutomationPractice\node_modules\@cucumber\cucumber\src\runtime\step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (F:\LearnAutomationPractice\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (F:\LearnAutomationPractice\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:307:20)
+                    at F:\LearnAutomationPractice\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:210:36</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653050865617' status='pending' stop='1653050865618'>
+            <name>Then set the value of All mandantory fields</name>
+            <title>Then set the value of All mandantory fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653050865618' status='pending' stop='1653050865618'>
+            <name>Then click the see prices Button</name>
+            <title>Then click the see prices Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653050865619' status='passed' stop='1653050865621'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

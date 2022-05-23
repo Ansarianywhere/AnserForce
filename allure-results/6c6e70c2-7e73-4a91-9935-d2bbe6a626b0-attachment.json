@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//*[@class='btn btn-outline full-btn'])[7]"
+}
